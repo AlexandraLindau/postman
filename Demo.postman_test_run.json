@@ -1,0 +1,154 @@
+{
+	"id": "a907ddc8-bfa7-4a0d-9f3e-abef0a804ef3",
+	"name": "Demo",
+	"timestamp": "2022-08-10T19:50:52.909Z",
+	"collection_id": "a72bc607-f246-4db9-8097-463ca5f9b000",
+	"folder_id": 0,
+	"environment_id": "0b8fe76b-7170-4b6e-bcd5-22dd6b420730",
+	"totalPass": 6,
+	"totalFail": 0,
+	"results": [
+		{
+			"id": "4166d44d-2f89-4831-869f-a97447682664",
+			"name": "Get users",
+			"url": "https://gorest.co.in/public/v2/users",
+			"time": 543,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				543
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "17b85a60-3792-4b23-9de6-7ac7b0f0cdb7",
+			"name": "Create user",
+			"url": "https://gorest.co.in/public/v2/users",
+			"time": 171,
+			"responseCode": {
+				"code": 201,
+				"name": "Created"
+			},
+			"tests": {
+				"Status code is 201": true,
+				"Response data corresponds to the expected result": true
+			},
+			"testPassFailCounts": {
+				"Status code is 201": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response data corresponds to the expected result": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				171
+			],
+			"allTests": [
+				{
+					"Status code is 201": true,
+					"Response data corresponds to the expected result": true
+				}
+			]
+		},
+		{
+			"id": "75311b8c-8906-4223-b58d-1aa0caab494e",
+			"name": "Update user's data",
+			"url": "https://gorest.co.in/public/v2/users/5771",
+			"time": 175,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Response data corresponds to the expected result": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response data corresponds to the expected result": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				175
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Response data corresponds to the expected result": true
+				}
+			]
+		},
+		{
+			"id": "51dd4598-8699-476d-88b0-fa36a63c2edd",
+			"name": "Delete user",
+			"url": "https://gorest.co.in/public/v2/users/5771",
+			"time": 171,
+			"responseCode": {
+				"code": 204,
+				"name": "No Content"
+			},
+			"tests": {
+				"Status code is 204": true
+			},
+			"testPassFailCounts": {
+				"Status code is 204": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				171
+			],
+			"allTests": [
+				{
+					"Status code is 204": true
+				}
+			]
+		}
+	],
+	"count": 1,
+	"totalTime": 1060,
+	"collection": {
+		"requests": [
+			{
+				"id": "4166d44d-2f89-4831-869f-a97447682664",
+				"method": "GET"
+			},
+			{
+				"id": "17b85a60-3792-4b23-9de6-7ac7b0f0cdb7",
+				"method": "POST"
+			},
+			{
+				"id": "75311b8c-8906-4223-b58d-1aa0caab494e",
+				"method": "PATCH"
+			},
+			{
+				"id": "51dd4598-8699-476d-88b0-fa36a63c2edd",
+				"method": "DELETE"
+			}
+		]
+	}
+}
