@@ -1,18 +1,18 @@
 {
-	"id": "a907ddc8-bfa7-4a0d-9f3e-abef0a804ef3",
+	"id": "88c5e48e-bb55-4f78-bbd3-4c8527b77845",
 	"name": "Demo",
-	"timestamp": "2022-08-10T19:50:52.909Z",
-	"collection_id": "a72bc607-f246-4db9-8097-463ca5f9b000",
+	"timestamp": "2023-06-26T14:29:43.461Z",
+	"collection_id": "013ecd15-fb57-4e71-b9c6-3b2e19abc684",
 	"folder_id": 0,
 	"environment_id": "0b8fe76b-7170-4b6e-bcd5-22dd6b420730",
 	"totalPass": 6,
 	"totalFail": 0,
 	"results": [
 		{
-			"id": "4166d44d-2f89-4831-869f-a97447682664",
+			"id": "9c719da1-b3e1-4a59-84b6-15b1db119c67",
 			"name": "Get users",
 			"url": "https://gorest.co.in/public/v2/users",
-			"time": 543,
+			"time": 294,
 			"responseCode": {
 				"code": 200,
 				"name": "OK"
@@ -27,7 +27,7 @@
 				}
 			},
 			"times": [
-				543
+				294
 			],
 			"allTests": [
 				{
@@ -36,10 +36,10 @@
 			]
 		},
 		{
-			"id": "17b85a60-3792-4b23-9de6-7ac7b0f0cdb7",
+			"id": "d6dad8c6-265b-4009-b29e-3a9f1b6cf30c",
 			"name": "Create user",
 			"url": "https://gorest.co.in/public/v2/users",
-			"time": 171,
+			"time": 367,
 			"responseCode": {
 				"code": 201,
 				"name": "Created"
@@ -59,7 +59,7 @@
 				}
 			},
 			"times": [
-				171
+				367
 			],
 			"allTests": [
 				{
@@ -69,10 +69,10 @@
 			]
 		},
 		{
-			"id": "75311b8c-8906-4223-b58d-1aa0caab494e",
+			"id": "6452f89c-80b1-4e8f-85c6-2c5e5be3ae83",
 			"name": "Update user's data",
-			"url": "https://gorest.co.in/public/v2/users/5771",
-			"time": 175,
+			"url": "https://gorest.co.in/public/v2/users/3268654",
+			"time": 253,
 			"responseCode": {
 				"code": 200,
 				"name": "OK"
@@ -92,7 +92,7 @@
 				}
 			},
 			"times": [
-				175
+				253
 			],
 			"allTests": [
 				{
@@ -102,10 +102,10 @@
 			]
 		},
 		{
-			"id": "51dd4598-8699-476d-88b0-fa36a63c2edd",
+			"id": "19fb755a-53ce-40db-a0ce-24d9fef3858c",
 			"name": "Delete user",
-			"url": "https://gorest.co.in/public/v2/users/5771",
-			"time": 171,
+			"url": "https://gorest.co.in/public/v2/users/3268654",
+			"time": 281,
 			"responseCode": {
 				"code": 204,
 				"name": "No Content"
@@ -120,7 +120,7 @@
 				}
 			},
 			"times": [
-				171
+				281
 			],
 			"allTests": [
 				{
@@ -130,23 +130,23 @@
 		}
 	],
 	"count": 1,
-	"totalTime": 1060,
+	"totalTime": 1195,
 	"collection": {
 		"requests": [
 			{
-				"id": "4166d44d-2f89-4831-869f-a97447682664",
+				"id": "9c719da1-b3e1-4a59-84b6-15b1db119c67",
 				"method": "GET"
 			},
 			{
-				"id": "17b85a60-3792-4b23-9de6-7ac7b0f0cdb7",
+				"id": "d6dad8c6-265b-4009-b29e-3a9f1b6cf30c",
 				"method": "POST"
 			},
 			{
-				"id": "75311b8c-8906-4223-b58d-1aa0caab494e",
+				"id": "6452f89c-80b1-4e8f-85c6-2c5e5be3ae83",
 				"method": "PATCH"
 			},
 			{
-				"id": "51dd4598-8699-476d-88b0-fa36a63c2edd",
+				"id": "19fb755a-53ce-40db-a0ce-24d9fef3858c",
 				"method": "DELETE"
 			}
 		]
