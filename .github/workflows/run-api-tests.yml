@@ -1,0 +1,26 @@
+name: Run Postman Tests
+on:
+  workflow_dispatch
+
+jobs:
+   build:
+     runs-on: ubuntu-latest # the machine type
+     
+     steps:
+     
+     - name: Check out Git repository
+       uses: actions/checkout@v3 #checkout the code 
+     
+     - name: Set up Node.js
+       uses: actions/setup-node@v3
+       with:
+          node-version: 18
+        
+     - name: Install dependencies
+       run: npm install
+       
+     - name: Install newman
+       run: npm install -g newman
+       
+     - name: Run Postman API tests
+       run: newman run Demo.postman_collection.json -e Demo\ env.postman_environment.json
